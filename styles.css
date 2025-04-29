@@ -1,0 +1,116 @@
+/* Resetting default browser styles */  
+* {  
+    margin: 0;  
+    padding: 0;  
+    box-sizing: border-box;  
+}  
+
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    background-color: #f4f4f4;  
+    color: #575555;  
+}  
+
+/* Header styles */  
+header {  
+    background: #50636e;  
+    color: #ffffff;  
+    padding: 20px 0;  
+}  
+
+.logo {  
+    text-align: center;  
+    font-size: 24px;  
+    font-weight: bold;  
+}  
+
+nav {  
+    text-align: center;  
+}  
+
+nav ul {  
+    list-style: none;  
+}  
+
+nav ul li {  
+    display: inline;  
+    margin: 0 15px;  
+}  
+
+nav ul li a {  
+    color: #ffffff;  
+    text-decoration: none;  
+}  
+
+/* Hero Section */  
+.hero {  
+    text-align: center;  
+    padding: 50px 20px;  
+    background: #e8491d;  
+    color: white;  
+}  
+
+.hero img {  
+    width: 150px;  
+    height: auto;  
+    border-radius: 75px; /* Makes the image circular */  
+}  
+
+.hero h1 {  
+    margin: 20px 0 10px;  
+    font-size: 36px;  
+}  
+
+.hero p {  
+    font-size: 18px;  
+}  
+
+/* About and Contact Sections */  
+section {  
+    padding: 40px 20px;  
+    text-align: center;  
+}  
+
+h2 {  
+    margin-bottom: 20px;  
+    font-size: 28px;  
+}  
+
+p {  
+    font-size: 16px;  
+    max-width: 600px;  
+    margin: 0 auto;  
+}  
+
+/* Footer styles */  
+footer {  
+    background: #546975;  
+    color: rgb(173, 170, 170);  
+    text-align: center;  
+    padding: 20px 0;  
+}  
+
+.map {  
+    margin-top: 15px;  
+}  
+
+/* Responsive Design */  
+@media (max-width: 600px) {  
+    nav ul li {  
+        display: block;  
+        margin: 10px 0;  
+    }  
+    
+    .hero img {  
+        width: 100px; /* Smaller image on mobile */  
+    }  
+    
+    .hero h1 {  
+        font-size: 28px; /* Smaller title */  
+    }  
+    
+    .hero p {  
+        font-size: 16px; /* Smaller bio text */  
+    }  
+}  
